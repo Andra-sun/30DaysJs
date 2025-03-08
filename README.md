@@ -1,1 +1,10 @@
-# 30DaysJs
+# 30 Dias de JavaScript 🚀
+
+Bem-vindo ao meu desafio de 30 dias de JavaScript! 🎯 Durante os próximos 30 dias, irei explorar e praticar diferentes conceitos da linguagem JavaScript, construindo pequenos projetos e resolvendo desafios diários.
+
+## 📌 Objetivo
+
+Este repositório foi criado para documentar meu progresso e compartilhar meus aprendizados ao longo do desafio. O objetivo é aprimorar minhas habilidades, explorar novas abordagens e fortalecer meu conhecimento em JS.
+
+## 🔥 Progresso
+1. Contador de cliques
