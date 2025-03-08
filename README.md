@@ -1,6 +1,6 @@
-# 30 Dias de JavaScript 🚀
+# 30 Dias com JavaScript 🚀
 
-Bem-vindo ao meu desafio de 30 dias de JavaScript! 🎯 Durante os próximos 30 dias, irei explorar e praticar diferentes conceitos da linguagem JavaScript, construindo pequenos projetos e resolvendo desafios diários.
+Bem-vindo ao meu desafio de 30 dias com JavaScript! 🎯 Durante os próximos 30 dias, irei explorar e praticar diferentes conceitos da linguagem JavaScript, construindo pequenos projetos e resolvendo desafios diários.
 
 ## 📌 Objetivo
 
