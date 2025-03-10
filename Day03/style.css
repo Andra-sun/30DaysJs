@@ -1,0 +1,16 @@
+body {
+    background-color: #f4ecd8;
+    color: #5b4636;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+h1,
+h2 {
+    margin: 10px 0;
+    font-weight: 600;
+}
+#relogio {
+    font-weight: 800;
+    font-size: 3rem;
+}
