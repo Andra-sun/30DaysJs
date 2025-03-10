@@ -9,3 +9,4 @@ Este repositório foi criado para documentar meu progresso e compartilhar meus a
 ## 🔥 Progresso
 1. Contador de cliques
 2. Cor aleatoria
+3. Relógio digital
