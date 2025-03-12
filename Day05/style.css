@@ -1,0 +1,88 @@
+body {
+    background-color: #f4ecd8;
+    color: #5b4636;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+h1, h2, h3 {
+    margin: 10px 0;
+    font-weight: 600;
+}
+button {
+    border: 2px solid #5b4636;
+    background-color: #b49278;
+    color: #fff;
+    padding: 12px 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+button:hover {
+    background-color: #a07b67;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    background-color: #d5a886;
+    transform: scale(0.95);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
+}
+main{
+    margin-bottom: 3rem;
+}
+
+div{
+    padding: 15px;
+    margin: 16px 0 20px 0 ;
+    border: 2px solid #5b4636;
+    border-radius: 5px;
+}
+
+textarea{
+    width: 100%;
+    border: 2px solid #5b4636;
+    border-radius: 5px;
+    height: 5rem;
+    font-size: 1.2rem;
+}
+input{
+    border: 2px solid #5b4636;
+    border-radius: 5px;
+    margin-right: 1rem;
+    flex: 1;
+    height: 3rem;
+    padding: 0 10px;
+    font-size: 1rem;
+}
+
+textarea:focus, input:focus{
+    outline: 3px solid #a07b67;
+}
+#inputArea {
+    border: none;
+    padding: 0;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: auto;
+    align-items: center;
+    gap: 10px;
+}
+#inputArea button {
+    white-space: nowrap;
+    height: 3rem;
+    padding: 10px 20px;
+    font-size: 1rem;
+    margin: 0;
+}
+p{
+    text-align: justify;
+}

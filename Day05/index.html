@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Botão de Copiar</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <!-- Criar um botão de "Copiar para a área de transferência"  -->
+        <h1>Botão de copiar para a área de transferencia</h1>
+        <h2>Dia 5</h2>
+        <hr />
+        <main>
+            <div>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Labore provident accusamus, non quisquam maxime laborum
+                consequuntur temporibus sequi nihil neque et corrupti delectus, eius nesciunt dignissimos quam error officia mollitia.
+                </p>
+                <button onclick="Copiar(event)">Copiar Paragrafo</button>
+            </div>
+            <div>
+                <div id="inputArea">
+                    <input id="inputText" type="text" placeholder="escreva algo" />
+                    <button id="criarTexto" onclick="AdicionarTexto()">Enviar</button>
+                </div>
+                <p id="inputParagraph"></p>
+                <button onclick="Copiar(event)">copiar o que você escreveu</button>
+            </div>
+        </main>
+
+        <textarea placeholder="área de teste"></textarea>
+
+        <script src="Copiar.js"></script>
+    </body>
+</html>
