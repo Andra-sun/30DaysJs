@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Criar um modal simples que aparece e fecha ao clicar no botão. -->
+     <h1>Modal</h1>
+     <h2>Dia 6</h2>
+     <hr>
+     
+     <button id="createModal" onclick="Modal()">Modal feito no html</button>
+     <button onclick="CreateModal('Modal', 'Este modal foi feito pelo JS.')">Modal feito no js</button>
+     
+     <div id="modal">
+        <div id="modalContainer">
+            <p>Esse é o modal feito dentro do HTML</p>
+            <button id="closeModal" onclick="CloseModal()">Fechar</button>
+        </div>
+     </div>
+
+     <script src="Modal.js"></script>
+</body>
+</html>
