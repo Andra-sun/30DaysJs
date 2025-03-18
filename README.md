@@ -13,3 +13,4 @@ Este repositório foi criado para documentar meu progresso e compartilhar meus a
 4. Barra de progresso
 5. Botão de Copiar
 6. Modal
+7. Efeito Typewriter
