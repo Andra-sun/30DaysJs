@@ -6,14 +6,15 @@ async function fetchProjects() {
     return projects;
 }
 
-async function Projects() {
+async function Projects(weekId = "semana1") {
     const projectsContainer = document.createElement("div");
 
     projectsContainer.classList.add("projects");
     projectsContainer.id = "projetos";
 
     const projects = await fetchProjects();
-    projects.forEach((project) => {
+    const weekProjects = projects[weekId] || [];
+    weekProjects.forEach((project) => {
         const projectCard = ProjectCard(project);
         projectsContainer.appendChild(projectCard);
     });

@@ -9,7 +9,7 @@ function Header() {
         <h3>Projeto da semana 2</h3>
     `;
     nav.innerHTML = `
-        <a href="#projetos">Projetos</a>
+        <a href="#week">Projetos</a>
         <a href="#sobre">Sobre</a>
         <a href="#ver-mais">Ver Mais</a>
     `;

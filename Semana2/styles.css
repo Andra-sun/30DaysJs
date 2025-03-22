@@ -42,9 +42,8 @@ nav a {
 nav a:hover {
     color: #fff3e3;
 }
-span{
+span {
     font-weight: 700;
-
 }
 .project-card,
 .about,
@@ -57,7 +56,6 @@ span{
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
-    margin-top: 2rem;
 }
 .project-card {
     text-transform: lowercase;
@@ -90,14 +88,14 @@ span{
     padding: 20px;
 }
 .more a,
-.project-card a {
+.project-card a, .week a {
     color: #007bff;
     text-decoration: none;
     transition: color 0.3s ease;
 }
 
 .more a:hover,
-.project-card a:hover {
+.project-card a:hover, .week a:hover {
     color: #0056b3;
 }
 
@@ -139,4 +137,52 @@ span{
     .menu-icon {
         display: flex;
     }
+}
+
+.project-card {
+    animation: all 0.5s ease-in-out;
+}
+h1 span{
+    font-size: large;
+    font-weight: 600;
+}
+.week{
+    margin-top: 2rem;
+}
+.week a{
+    font-size:1.1rem;
+    margin-right: 1.2rem;
+}
+.backtop{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    padding: 1rem;
+    margin: 1rem;
+}
+button {
+    border: 2px solid #5b4636;
+    background-color: #b49278;
+    color: #fff;
+    padding: 12px 24px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 8px;
+    box-shadow: 2px 2px 8px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+button:hover {
+    background-color: #a07b67;
+    transform: translateY(-2px);
+    box-shadow: 4px 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+button:active {
+    background-color: #d5a886;
+    transform: scale(0.95);
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.1);
 }

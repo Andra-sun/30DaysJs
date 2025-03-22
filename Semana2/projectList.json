@@ -1,9 +1,42 @@
-[
-    {"name": "contador de cliques", "day": 1, "link": "https://andra-sun.github.io/30DaysJs/Day01/"},
-    {"name": "botão que altera a cor do fundo da página aleatoriamente", "day": 2, "link": "https://andra-sun.github.io/30DaysJs/Day02/"},
-    {"name": "relógio digital que atualiza a cada segundo", "day": 3, "link": "https://andra-sun.github.io/30DaysJs/Day03/"},
-    {"name": "barra de progresso", "day": 4, "link": "https://andra-sun.github.io/30DaysJs/Day04/"},
-    {"name": "botão de 'Copiar para a área de transferência'", "day": 5, "link": "https://andra-sun.github.io/30DaysJs/Day05/"},
-    {"name": "modal que aparece e fecha ao clicar no botão.", "day": 6, "link": "https://andra-sun.github.io/30DaysJs/Day06/"},
-    {"name": " efeito de digitação automática ", "day": 7, "link": "https://andra-sun.github.io/30DaysJs/Day07/"}
-]
+{
+    "semana1": [
+        {
+            "name": "contador de cliques",
+            "day": 1,
+            "link": "https://andra-sun.github.io/30DaysJs/Day01/"
+        },
+        {
+            "name": "botão que altera a cor do fundo da página aleatoriamente",
+            "day": 2,
+            "link": "https://andra-sun.github.io/30DaysJs/Day02/"
+        },
+        {
+            "name": "relógio digital que atualiza a cada segundo",
+            "day": 3,
+            "link": "https://andra-sun.github.io/30DaysJs/Day03/"
+        },
+        {
+            "name": "barra de progresso",
+            "day": 4,
+            "link": "https://andra-sun.github.io/30DaysJs/Day04/"
+        },
+        {
+            "name": "botão de 'Copiar para a área de transferência'",
+            "day": 5,
+            "link": "https://andra-sun.github.io/30DaysJs/Day05/"
+        },
+        {
+            "name": "modal que aparece e fecha ao clicar no botão.",
+            "day": 6,
+            "link": "https://andra-sun.github.io/30DaysJs/Day06/"
+        },
+        {
+            "name": "efeito de digitação automática",
+            "day": 7,
+            "link": "https://andra-sun.github.io/30DaysJs/Day07/"
+        }
+    ],
+    "semana2": [{ "name": "portfólio do projeto", "day": "8 a 14", "link": "/" }],
+    "semana3": [{ "name": "ainda está por vir", "day": "15 a 21", "link": "/" }],
+    "semana4": [{ "name": "ainda está por vir", "day": "22 a 30", "link": "/" }]
+}
