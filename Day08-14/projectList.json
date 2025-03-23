@@ -37,6 +37,6 @@
         }
     ],
     "semana2": [{ "name": "portfólio do projeto", "day": "8 a 14", "link": "/" }],
-    "semana3": [{ "name": "ainda está por vir", "day": "15 a 21", "link": "/" }],
+    "semana3": [{ "name": "Lista de Sugestão automática", "day": "15", "link": "https://andra-sun.github.io/30DaysJs/Day15/" }],
     "semana4": [{ "name": "ainda está por vir", "day": "22 a 30", "link": "/" }]
 }

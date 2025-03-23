@@ -15,3 +15,4 @@ Este repositório foi criado para documentar meu progresso e compartilhar meus a
 6. Modal
 7. Efeito Typewriter
 8. a 14. Portfólio do Projeto
+15. Sugestão automática
