@@ -1,0 +1,43 @@
+body {
+    background-color: #f4ecd8;
+    color: #5b4636;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: center;
+}
+
+h1,
+h2,
+h3 {
+    margin: 10px 0;
+    font-weight: 600;
+}
+input {
+    border: 2px solid #5b4636;
+    border-radius: 5px;
+    margin-right: 1rem;
+    flex: 1;
+    height: 3rem;
+    padding: 10px;
+    font-size: 1rem;
+}
+input:focus {
+    outline: 3px solid #a07b67;
+}
+#main{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#sugestao {
+    border: 1px solid #ccc;
+    background-color: white;
+}
+#sugestao div {
+    padding: 8px;
+    cursor: pointer;
+}
+#sugestao div:hover {
+    background: #f0f0f0;
+}
