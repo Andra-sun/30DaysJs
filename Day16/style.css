@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+    background-color: black;
+}
+
+.parallax-container {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.layer {
+    width: 120vw;
+    height: 120vh;
+    position: absolute;
+    top: -10vh;
+    left: -10vw;
+    background-size: cover;
+    background-position: center;
+    transition: transform 0.1s linear;
+}
+#psyduck{
+    scale: 0.4;
+}
